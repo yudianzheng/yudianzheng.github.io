@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Yudian's Evolving Academic Homepage"
-page_title: "Welcome to My Academic Journey"
+# title: "Yudian's Evolving Academic Homepage"
+# page_title: "Welcome to My Academic Journey"
 author_profile: true
 redirect_from: 
   - /about/
