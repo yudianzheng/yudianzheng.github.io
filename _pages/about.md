@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yudian's Evolving Academic Homepage"
+title: "About Me/Planning"
 author_profile: true
 redirect_from: 
   - /about/
