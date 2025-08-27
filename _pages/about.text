@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /
 title: "About Me/Planning"
 author_profile: true
@@ -7,16 +7,25 @@ redirect_from:
   - /about.html
 ---
 
-# Navigating the Academic Landscape as a Newcomer
+# Welcome to My Academic Journey
 
 
-My Academic Path
+This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+
+ You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+
+A data-driven personal website
 ======
-I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. It was during my undergraduate final year project that I first encountered content related to GANs. I made minor modifications to [CycleGAN](https://arxiv.org/pdf/1703.10593), but in reality, I failed to achieve meaningful results—this experience was more of a superficial exploration, barely scratching the surface of GANs’ potential.
-In my master’s program of Visual Computing in [Universität des Saarlandes](https://www.uni-saarland.de/), I was introduced to ray tracing, a technology that sparked my deep interest. Unlike my earlier tentative attempts, I fully committed to the task: I built a complete ray tracing renderer from scratch, which also marked the beginning of my journey into Physically Based Rendering (PBR). For my master’s thesis, I worked on extending the research on [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Looking back, this thesis project was a bittersweet experience. On one hand, the topic itself was academically engaging and intellectually stimulating; on the other hand, that was where its value largely ended. In my view, the final work was essentially a highly polished piece of research in the traditional sense—refined in details but lacking breakthrough innovation.
-Currently, I have returned to the University of Macau to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC. Through my ongoing studies, I am more convinced than ever that data-driven methods still hold immense untapped potential, both in terms of breadth (e.g., expanding application scenarios) and depth (e.g., enhancing model robustness and interpretability). Additionally, I hope to revisit PBR in the future—this time, exploring it through the lens of machine learning, with the goal of reimagining traditional PBR workflows using data-driven approaches.
+Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Research Interests
+Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+
+For those users that need more advanced functionality, the template also supports the following popular tools:
+- [MathJax](https://www.mathjax.org/) for mathematical equations
+- [Mermaid](https://mermaid.js.org/) for diagraming
+- [Plotly](https://plotly.com/javascript/) for plotting
+
+Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
@@ -47,4 +56,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
