@@ -11,7 +11,7 @@ redirect_from:
 
 ### My Academic Path
 
-I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. During my master’s program of Visual Computing at [Universität des Saarlandes](https://www.uni-saarland.de/), I worked on extending research in [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Currently, I return to the [University of Macau](https://www.um.edu.mo/) to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC.
+I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. During my master’s program of Visual Computing at [Universität des Saarlandes](https://www.uni-saarland.de/), I worked on extending research in [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Currently, I return to the [University of Macau](https://www.um.edu.mo/) to pursue my PhD, supervised by [Prof. Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man PUN](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC.
 
 ### Research Interests
 
@@ -35,4 +35,17 @@ At present, 3D Vision (3DV) is in a phase of dynamic development. The emergence 
 On another front, advancing 3D Vision also offers substantial value for Artificial Intelligence Generated Content (AIGC): it provides critical support for a range of AIGC tasks, including video generation, 3D asset creation, and scene understanding. Importantly, we are still in the early stages of exploring and understanding the full potential of this synergy between 3D Vision and AIGC—leaving ample room for innovation and discovery.
 
 ### Evolving Research Perspectives
-======
+
+As time has passed, I've gradually formed coarse yet meaningful principles regarding research and learning, which now guide approach to my work:
+
+1. Consistency: Scarce yet cultivable, it offers the most sustainable path to avoiding friction and leveraging energy long-term..
+
+2. Time Management: Effective time management, rooted in holistic project understanding, delivers both efficient completion and the satisfaction of learning.
+
+3. Idea > Achievement: While engineering is valuable, unique ideas are the true differentiator in research.
+
+4. Learning by Doing: Ideas and practice are synergistic.
+
+5. Designing Experiments: Effective experiments are simple, decomposable, and efficient.
+
+6. Knowing When to “Think Hard”: Concentrate deep thinking on experiment design and result analysis. Avoid overcomplicating the experiment itself.
