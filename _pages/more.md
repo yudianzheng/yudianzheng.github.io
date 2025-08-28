@@ -1,5 +1,5 @@
 ---
-permalink: /More/
+permalink: /more/
 title: "More"
 author_profile: true
 redirect_from: 
