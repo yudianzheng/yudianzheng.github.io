@@ -9,14 +9,9 @@ redirect_from:
 
 # Navigating the Academic Landscape as a Newcomer
 
-
 ### My Academic Path
 ======
-I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. It was during my undergraduate final year project that I first encountered content related to GANs. I made minor modifications to [CycleGAN](https://arxiv.org/pdf/1703.10593), but in reality, I failed to achieve meaningful results—this experience was more of a superficial exploration, barely scratching the surface of GANs’ potential.
-
-In my master’s program of Visual Computing in [Universität des Saarlandes](https://www.uni-saarland.de/), I was introduced to ray tracing, a technology that sparked my deep interest. Unlike my earlier tentative attempts, I fully committed to the task: I built a complete ray tracing renderer from scratch, which also marked the beginning of my journey into Physically Based Rendering (PBR). For my master’s thesis, I worked on extending the research on [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Looking back, this thesis project was a bittersweet experience. On one hand, the topic itself was academically engaging and intellectually stimulating; on the other hand, that was where its value largely ended. In my view, the final work was essentially a highly polished piece of research in the traditional sense—refined in details but lacking breakthrough innovation.
-
-Currently, I have returned to the University of Macau to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC. Through my ongoing studies, I am more convinced than ever that data-driven methods still hold immense untapped potential, both in terms of breadth (e.g., expanding application scenarios) and depth (e.g., enhancing model robustness and interpretability). Additionally, I hope to revisit PBR in the future—this time, exploring it through the lens of machine learning, with the goal of reimagining traditional PBR workflows using data-driven approaches.
+I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. During my master’s program of Visual Computing at [Universität des Saarlandes](https://www.uni-saarland.de/), I worked on extending research in [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Currently, I return to the [University of Macau](https://www.um.edu.mo/) to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC.
 
 ### Research Interests
 ======
