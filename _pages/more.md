@@ -1,0 +1,62 @@
+---
+permalink: /More/
+title: "More"
+author_profile: true
+redirect_from: 
+  - /md/
+  - /markdown.html
+---
+
+{% include toc %}
+
+### My Academic Path
+======
+I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. It was during my undergraduate final year project that I first encountered content related to GANs. I made minor modifications to [CycleGAN](https://arxiv.org/pdf/1703.10593), but in reality, I failed to achieve meaningful results—this experience was more of a superficial exploration, barely scratching the surface of GANs’ potential.
+
+In my master’s program of Visual Computing in [Universität des Saarlandes](https://www.uni-saarland.de/), I was introduced to ray tracing, a technology that sparked my deep interest. Unlike my earlier tentative attempts, I fully committed to the task: I built a complete ray tracing renderer from scratch, which also marked the beginning of my journey into Physically Based Rendering (PBR). For my master’s thesis, I worked on extending the research on [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Looking back, this thesis project was a bittersweet experience. On one hand, the topic itself was academically engaging and intellectually stimulating; on the other hand, that was where its value largely ended. In my view, the final work was essentially a highly polished piece of research in the traditional sense—refined in details but lacking breakthrough innovation.
+
+Currently, I have returned to the University of Macau to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC. Through my ongoing studies, I am more convinced than ever that data-driven methods still hold immense untapped potential, both in terms of breadth (e.g., expanding application scenarios) and depth (e.g., enhancing model robustness and interpretability). Additionally, I hope to revisit PBR in the future—this time, exploring it through the lens of machine learning, with the goal of reimagining traditional PBR workflows using data-driven approaches.
+
+### Research Interests
+======
+As I outlined in My Academic Path, I have hands-on experience with both Physically Based Rendering (PBR) and Artificial Intelligence Generated Content (AIGC)—two areas that, despite their relevance to my research, differ fundamentally in their core logic.
+PBR leans heavily into theoretical rigor: it relies on strict mathematical reasoning to model and describe the physical world objectively. The results it produces are, to a certain extent, unbiased, robust, and highly compressed—each formula and algorithm distills complex real-world phenomena into precise, interpretable rules. In contrast, AIGC (along with the 3D Vision backbones I now work with) is deeply data-driven. It excels at reshaping data to mirror the distributions of the real world, enabling the generation of complex scenes that would be extremely difficult to capture through theoretical modeling alone. Yet this strength comes with tradeoffs: data-driven outputs are often biased (shaped by the limitations of training datasets), suboptimal (trained to approximate rather than perfectly replicate reality), and redundant (carrying noise or unnecessary details from raw data).
+What fascinates me most is this contrast between human and machine reasoning. As humans—agents that operate in parallel with deep learning systems—we can distill vast amounts of data into concise, theoretical conclusions: we observe patterns, derive principles, and compress complexity into actionable knowledge. The question that drives my research, then, is this: How can we equip deep learning systems with a similar ability? Bridging the gap between PBR’s theoretical precision and AIGC’s data-driven flexibility—teaching AI to “learn to compress” and “reason like humans” while retaining its power to generate complex content—feels like one of the most compelling and impactful challenges in my field today.
+
+I am interested in visual representation methods. Currently, real-world visual information is usually represented with pixels as the smallest unit. However, this approach leads to significant information redundancy and inefficiency in processing.
+To address this, models like Latent Diffusion Models map visual data to latent spaces, and NeRF also uses implicit representation. In contrast, formats such as SVG and 3D Gaussian Splatting (3DGS) are compressed explicit representations.
+Different representation methods reduce information redundancy, enhance robustness, and facilitate various types of manipulation—for example, SVG is well-suited for editing. Exploring how to represent visual information and the advantages of different representations is one of my key areas of interest。
+
+The second area of my interest is extending Physically Based Rendering (PBR) using large models. Traditional PBR faces significant limitations and has somewhat stagnated, for three key reasons:
+First, modeling the real world is extremely challenging. Real-world scenes are highly complex, influenced by numerous factors, making it difficult to replicate them accurately.
+Second, algorithm implementation is cumbersome. Even building a basic renderer requires addressing multiple aspects—including camera systems, geometry processing, material simulation, light sources, and rendering algorithms. Advanced algorithms like Bidirectional Path Tracing (BDPT) involve even more complex considerations, which are highly unfavorable for code implementation and maintenance.
+Third, different rendering methods impose strict constraints on scenes: most are designed for specific scenarios and cannot guarantee a general improvement in rendering speed. Additionally, many of these algorithms are still optimized for CPUs, failing to fully leverage the parallel processing capabilities of modern hardware.
+First, most large models adopt an end-to-end design paradigm, which simplifies both operation and maintenance logic—avoiding the cumbersome, modular coordination required by traditional PBR algorithms.
+Second, large models are data-driven and trained on massive pre-validated data. This enables them to produce reliable results even in complex scenarios, implying significant potential for achieving general improvements in rendering performance (unlike traditional methods limited to specific use cases).
+Third, large models are built on GPU architectures, which means they inherently possess strong parallel computing and scalability capabilities—addressing the inefficiency of traditional PBR algorithms that are often CPU-optimized and struggle to leverage parallel processing power.
+
+At present, 3D Vision (3DV) is in a phase of dynamic development. The emergence of new backbones has demonstrated the feasibility of the scaling law in 3D domains—a breakthrough that makes 3D Vision far closer to capturing the "essence" of real-world objects and scenes than pure 2D vision. This shift also marks a gradual convergence of 3D Vision with Computer Graphics (CG), differing from the traditional focus of Computer Vision (CV).
+On another front, advancing 3D Vision also offers substantial value for Artificial Intelligence Generated Content (AIGC): it provides critical support for a range of AIGC tasks, including video generation, 3D asset creation, and scene understanding. Importantly, we are still in the early stages of exploring and understanding the full potential of this synergy between 3D Vision and AIGC—leaving ample room for innovation and discovery.
+
+### Evolving Research Perspectives
+======
+随着时间的推移，逐渐有了些关于科研，或者学习的小的想法
+As time has passed, I’ve gradually formed small but meaningful insights about research and learning—principles that now guide how I approach my work:
+1. Consistency
+When it comes to learning, the goals we pursue are often broad and long-term. Moments of “genius-driven inspiration” are exciting, like surging waves that reach great heights—but what truly determines how far you can go is consistency. Progress is built step by step: small, daily efforts accumulate to achieve something significant, and every great scholar embodies this principle.
+In terms of rarity, maintaining long-term consistency is no less difficult than the emergence of natural talent. From a personal development perspective, consistency is also the most sustainable and efficient way to avoid internal friction and waste. It helps you coordinate and leverage your energy in the long run, rather than relying on fleeting bursts of motivation.
+2. Time Management
+Time management is more than just a practical skill—it is a foundational one, and its importance extends far beyond “managing time itself.” At its core, time management is about allocation, which depends entirely on your comprehensive understanding of your work.
+If you have a clear grasp of your tasks, priorities, and progress, you can allocate your time rationally. This prevents you from being interrupted mid-work by mismatched tasks (e.g., jumping to a trivial detail when deep in a complex model) or falling into random, meaningless attempts to “fill time.” Good time management keeps your focus aligned with your goals.
+3. Idea > Achievement
+Research is inherently about exploration, not just engineering. While data-driven trends have turned many AI tasks into incremental engineering work, as researchers, we must distinguish between “personal growth” and “resource-dependent outcomes.” If we judge our ability by the same standards as resource-intensive CV papers (where results often rely on large datasets or computing power), how can we tell if success stems from our own skills or merely favorable resource allocation?
+I believe the key lies in the original intention of the work. Whether it’s finding a reasonable application scenario for an algorithm or proposing an interesting new task, a strong idea has guiding and exploratory value. Popular tasks will always attract people to implement them, but the idea itself—unique and insightful—is what truly sets work apart.
+4. Learning by Doing
+The principle of “Idea > Achievement” applies not only to the final project but also to the idea itself—ideas are not static; they evolve. The ability to propose or refine ideas comes from practice. Only by learning through doing can you develop the judgment to generate reasonable ideas, because ideas exist to solve or analyze problems—and problems themselves are discovered and evaluated in practice.
+If you detach ideas from real work, they become empty fantasies with no practical value. In the long run, this “armchair thinking” fails to drive meaningful progress; it is only through hands-on practice that ideas gain weight and direction.
+5. Designing Experiments
+Like time management, experiment design reflects your overall understanding of a project. A good experiment is simple, efficient, and targeted—it should clearly test feasibility and pinpoint key problems.
+Overly complex or cumbersome experiments make progress unnecessarily challenging: they waste time, drain motivation, and obscure whether results stem from the core hypothesis or experimental flaws. Good experiments are also decomposable: breaking them into small, feedback-driven steps allows you to adjust in real time, creating an efficient positive cycle of “test-learn-improve.”
+6. Knowing When to “Think Hard”
+In reality, “critical thinking” should be applied strategically. Unnecessary overthinking only leads to internal friction, reduces efficiency, and misaligns goals with actions—all of which harm research.
+My advice: Focus your deep thinking on experiment design and result analysis. During the experiment itself (e.g., running pre-planned code, collecting data), avoid overcomplicating things. If an experiment requires constant “hard thinking” just to execute, it is likely a sign that the design is flawed—either unclear, overly convoluted, or missing key preparations.
