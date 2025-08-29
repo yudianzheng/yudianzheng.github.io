@@ -11,7 +11,7 @@ redirect_from:
 
 ## My Academic Path
 
-> I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. During my master’s program of Visual Computing at [Universität des Saarlandes](https://www.uni-saarland.de/), I worked on extending research in [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Currently, I return to the [University of Macau](https://www.um.edu.mo/) to pursue my PhD, supervised by [Prof. Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man PUN](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC.
+> I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. During my master’s program of Visual Computing at [Universität des Saarlandes](https://www.uni-saarland.de/), I worked on extending research in [Regression-based Monte Carlo Integration](https://arxiv.org/pdf/2211.07422), under the supervision of [Qinqin Hua](https://qingqin-hua.com/) and [Pascal Grittmann](https://graphics.cg.uni-saarland.de/people/grittmann.html). Currently, I return to the University of Macau to pursue my PhD, supervised by [Prof. Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man PUN](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC.
 
 ## Research Interests
 
