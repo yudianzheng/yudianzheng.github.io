@@ -37,6 +37,7 @@ This domain represents a 'blue ocean' of untapped potential. Since the precise m
 > As time has passed, I've gradually formed coarse yet meaningful principles regarding research and learning, which now guide my approach:
 > 
 > 1. Consistency:
+> <br>
 > When it comes to learning, the goals we pursue are often lifelong. In most research, consistency stands as the most critical factor. Firstly, in terms of rarity, maintaining long-term consistency is arguably as challenging as the emergence of natural talent. Secondly, consistency is a skill that can be cultivated. As growth and learning follow an inherently non-linear curve, only through continuous learning and accumulation can we achieve genuine progress. Furthermore, consistency is also the most sustainable and efficient way to avoid internal friction and waste. It helps you coordinate and leverage your energy over the long run, rather than relying on fleeting bursts of motivation that quickly fade. 
 > &emsp;&emsp;Moments of "genius-driven inspiration" are thrilling, akin to surging waves that crest to great heights. Yet the ultimate purpose of a wave lies not in its peak, but in the journey it undertakes. True progress, too, is forged step by step: small, daily efforts accumulate to yield something meaningful—a principle embodied by every great scholar.
 > 
