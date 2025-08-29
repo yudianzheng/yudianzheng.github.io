@@ -30,7 +30,7 @@ redirect_from:
 
 > As time has passed, I've gradually formed coarse yet meaningful principles regarding research and learning, which now guide approach to my work:
 >
-> 1. **"Consistency:** Scarce yet cultivable, it offers the most sustainable path to avoiding friction and leveraging energy long-term..
+> 1. **Consistency:** Scarce yet cultivable, it offers the most sustainable path to avoiding friction and leveraging energy long-term..
 >
 > 2. **Time Management:** Effective time management, rooted in holistic project understanding, delivers both efficient completion and the satisfaction of learning.
 >
