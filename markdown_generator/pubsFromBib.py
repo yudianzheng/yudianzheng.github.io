@@ -134,6 +134,14 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+            
+            if "github" in b.keys():
+                if len(str(b["github"])) > 5:
+                    md += "\ngithuburl: '" + b["github"] + "'"
+
+            if "project" in b.keys():
+                if len(str(b["project"])) > 5:
+                    md += "\nprojecturl: '" + b["project"] + "'"
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
