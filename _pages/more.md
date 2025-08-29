@@ -9,7 +9,7 @@ redirect_from:
 
 {% include toc %}
 
-### My Academic Path
+## My Academic Path
 
 I completed my undergraduate studies at the [University of Macau](https://www.um.edu.mo/), majoring in Computer Science. It was during my undergraduate final year project that I first had the chance to encounter deep learning content. I made minor modifications based on [CycleGAN](https://arxiv.org/pdf/1703.10593), but in reality, I did not achieve meaningful results; this experience was more of a superficial exploration.
 
@@ -17,7 +17,7 @@ During my master’s program of Visual Computing at [Universität des Saarlandes
 
 Currently, I return to the [University of Macau](https://www.um.edu.mo/) to pursue my PhD, supervised by [Prof.Xiaodong Cun](https://vinthony.github.io/academic/) and [Prof. Chi-Man Pun](https://cmpun.github.io/). My research now focuses on 3D Vision (3DV) and its applications in the field of AIGC. Through my ongoing studies, I am more convinced than ever that data-driven methods still hold immense untapped potential, both in terms of breadth and depth. On a subconscious level, I still hope to revisit PBR in the future—this time, exploring it through the lens of deep learning, with the goal of reimagining traditional PBR workflows using data-driven approaches.
 
-### Research Interests
+## Research Interests
 
 As I outlined in My Academic Path, I have experience with both PBR and AIGC in the field of CV. While these two domains qualify as “rendering” in a broad sense, their core logics differ fundamentally. PBR is grounded in theoretical rigor, relying on strict physical principles to model and describe the world objectively. Consequently, its results are unbiased, robust, and highly compressed, as algorithms distill complex phenomena into precise, interpretable rules. In contrast, AIGC is data-driven; it learns from vast amounts of real-world data to generate descriptions and recreations of the world. This enables the generation of complex scenes that would be extremely difficult to capture through theoretical modeling alone. However, this strength comes with trade-offs: data-driven outputs are often biased, suboptimal, redundant and unexplainable. Between model-driven and data-driven, there are many fundamental issues worth exploring.
 
@@ -32,7 +32,7 @@ This domain represents a 'blue ocean' of untapped potential. Since the precise m
 
 My research is focused on 3D Vision (3DV), a field currently undergoing rapid development. The development of new backbone models has demonstrated the effectiveness of scaling laws in 3D domains, a concept previously successful in 2D. This is a significant advancement, bringing 3D Vision much closer to capturing the inherent properties of real-world. This evolution also signals a growing alignment between CV and CG. Consequently, advancements in 3DV offer substantial benefits for AIGC, providing crucial support for tasks such as video generation, 3D asset creation, and scene understanding. Crucially, we are still in the early stages of exploring the full potential of the synergy.
 
-### Evolving Research Perspectives
+## Evolving Research Perspectives
 
 As time has passed, I've gradually formed coarse yet meaningful principles regarding research and learning, which now guide my approach:
 
