@@ -16,13 +16,13 @@ redirect_from:
 ## Research Interests
 
 > My research interests bridge Physically Based Rendering (PBR) and AI-Generated Content (AIGC) within Computer Vision, focusing on the fundamental properties of visual representations. While PBR seeks objective realism through physical principles, AIGC offers powerful, data-driven but often less explainable results. I aim to understand how various representation methods—from NeRF and 3D Gaussian Splatting to PBR, across latent, vector, and pixel spaces—influence interpretability and editability, and to develop strategies for their conversion and utilization.
-
+>
 > Specifically, my work is structured around three key areas:
-
+>
 > 1. **Visual Representation Interplay:** I investigate the characteristics of diverse visual representations (e.g., NeRF, 3D Gaussian Splatting, PBR, across latent, vector, and pixel spaces) and explore effective methods for their conversion and utilization.
-
+>
 > 2. **PBR with Large Models:** I am focused on extending traditional PBR by integrating large models to address its limitations in real-world scene modeling, implementation complexity, scene constraints, and hardware utilization.
-
+>
 > 3. **3D Vision on AIGC:** I examine how advancements in 3DV, particularly the application of scaling laws, enhance the capture of real-world properties. This progress offers significant advantages for AIGC applications such as video generation and 3D asset creation, with the full potential of this synergy still being explored.
 
 
