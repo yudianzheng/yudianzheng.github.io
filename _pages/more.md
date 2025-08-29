@@ -49,6 +49,7 @@ This domain represents a 'blue ocean' of untapped potential. Since the precise m
 > 3. Idea > Achievement:
 > <br>
 > From an idealistic perspective, research transcends mere engineering; it is an act of exploration that, in turn, guides the practice of engineering. Yet the landscape has shifted in recent years. As data-driven trends grow increasingly prominent, engineering itself has emerged as a valuable form of contribution. As researchers, I believe that while we acknowledge the value of engineering, we must also cultivate and deliver something far more unique—something only we can bring to the table. Such differentiation hinges on prioritizing the ideas behind the work, for engineering, at its core, is just the realization of those ideas.
+> <br>
 > &emsp;I believe the core of impactful work lies in its original intent. Whether it’s unearthing a practical application for an algorithm or proposing an innovative task, a compelling idea offers both guiding direction and exploratory potential. It should feel natural and convincing. While popular tasks inevitably attract many to implement them, it is the distinctiveness and depth of the idea itself that truly elevates a contribution.
 > 
 > 4. Learning by Doing:
