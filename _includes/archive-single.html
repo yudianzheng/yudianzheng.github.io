@@ -52,7 +52,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
+    <!-- {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
@@ -82,6 +82,42 @@
       <p><a href="{{ post.projecturl }}">Project</a></p>
     {% elsif post.githuburl %}
       <p><a href="{{ post.githuburl }}">GitHub</a></p>
+    {% endif %} -->
+    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl and post.githuburl and post.projecturl %}
+      <p>Recommended citation: {{ post.citation }}<br />
+      <a href="{{ post.paperurl }}">Paper</a> | 
+      <a href="{{ post.slidesurl }}">Slides</a> | 
+      <a href="{{ post.bibtexurl }}">Bibtex</a> | 
+      <a href="{{ post.githuburl }}">GitHub</a> | 
+      <a href="{{ post.projecturl }}">Project</a></p>
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.bibtexurl and post.githuburl %}
+      <p>Recommended citation: {{ post.citation }}<br />
+      <a href="{{ post.paperurl }}">Paper</a> | 
+      <a href="{{ post.slidesurl }}">Slides</a> | 
+      <a href="{{ post.bibtexurl }}">Bibtex</a> | 
+      <a href="{{ post.githuburl }}">GitHub</a></p>
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.bibtexurl and post.projecturl %}
+      <p>Recommended citation: {{ post.citation }}<br />
+      <a href="{{ post.paperurl }}">Paper</a> | 
+      <a href="{{ post.slidesurl }}">Slides</a> | 
+      <a href="{{ post.bibtexurl }}">Bibtex</a> | 
+      <a href="{{ post.projecturl }}">Project</a></p>
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.githuburl %}
+      <p>Recommended citation: {{ post.citation }}<br />
+      <a href="{{ post.paperurl }}">Paper</a> | 
+      <a href="{{ post.slidesurl }}">Slides</a> | 
+      <a href="{{ post.githuburl }}">GitHub</a></p>
+    {% elsif post.citation and post.paperurl and post.projecturl %}
+      <p>Recommended citation: {{ post.citation }}<br />
+      <a href="{{ post.paperurl }}">Paper</a> | 
+      <a href="{{ post.projecturl }}">Project</a></p>
+    {% elsif post.githuburl and post.projecturl %}
+      <p><a href="{{ post.githuburl }}">GitHub</a> | 
+         <a href="{{ post.projecturl }}">Project</a></p>
+    {% elsif post.githuburl %}
+      <p><a href="{{ post.githuburl }}">GitHub</a></p>
+    {% elsif post.projecturl %}
+      <p><a href="{{ post.projecturl }}">Project</a></p>
     {% endif %}
 
   </article>
