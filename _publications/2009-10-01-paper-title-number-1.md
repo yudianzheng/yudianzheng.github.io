@@ -9,7 +9,7 @@ venue: 'Computer Graphics Forum'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15044'
 projecturl: 'https://sketchvideo.github.io'
-githubrul: 'https://github.com/yudianzheng/SketchVideo'
+githuburl: 'https://github.com/yudianzheng/SketchVideo'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
