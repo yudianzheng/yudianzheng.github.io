@@ -6,7 +6,7 @@ permalink: /publication/sketch_video_synthesis
 excerpt: ''
 date: 2024-08-30
 venue: 'Computer Graphics Forum'
-authors: 'Yudian Zheng, Xiaodong Cun, Menghan Xia, Chi-Man Pun'
+authors: 'Yudian Zheng, Xiaodong Cun<sup>*</sup>, Menghan Xia, Chi-Man Pun'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15044'
 projecturl: 'https://sketchvideo.github.io'
