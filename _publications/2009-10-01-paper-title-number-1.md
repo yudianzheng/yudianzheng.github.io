@@ -3,7 +3,7 @@ title: "Sketch Video Synthesis"
 collection: publications
 category: manuscripts
 permalink: /publication/sketch_video_synthesis
-excerpt: 'Synopsis: This paper introduces a framework for sketchizing videos using Bézier curves, CLIP features, and a 2D atlas network, enabling sketch-based video editing.'
+excerpt: '<em>Brief: This paper introduces a framework for sketchizing videos using Bézier curves, CLIP features, and a 2D atlas network, enabling sketch-based video editing.</em>'
 date: 2024-08-30
 venue: 'Computer Graphics Forum'
 authors: 'Yudian Zheng, Xiaodong Cun<sup>*</sup>, Menghan Xia, Chi-Man Pun'
