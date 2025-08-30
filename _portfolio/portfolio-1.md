@@ -1,5 +1,5 @@
 ---
 title: "Eurographics 2024"
-excerpt: "Presentation in Cyprus<br/><img src='/images/sks_eg.jpg' style='max-width: 300px; height: auto;'>"
+excerpt: "Presentation in Cyprus<br/><img src='/images/sks_eg.jpg' style='max-width: 400px; height: auto;'>"
 collection: portfolio
 ---
