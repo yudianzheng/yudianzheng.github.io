@@ -13,3 +13,4 @@ link: 'https://sketchvideo.github.io'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15044'
 projecturl: 'https://sketchvideo.github.io'
 githuburl: 'https://github.com/yudianzheng/SketchVideo'
+---
