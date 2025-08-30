@@ -14,7 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    <!-- {% if include.type == "grid" and teaser %} -->
       <!-- <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -24,23 +24,27 @@
           {% endif %}
           alt="">
       </div> -->
-      <div class="archive__item-teaser">
-        {% if post.teaser %}
-          {% if post.teaser contains "://" %}
-            <img src="{{ post.teaser }}" alt="">
-          {% else %}
-            <img src="{{ post.teaser | prepend: "/images/" | prepend: base_path }}" alt="">
-          {% endif %}
-        {% elsif teaser %}
-          <img src=
-            {% if teaser contains "://" %}
-              "{{ teaser }}"
+    <!-- {% endif %} -->
+    {% if include.type == "grid" %}
+      {% if post.teaser or teaser %}
+        <div class="archive__item-teaser">
+          {% if post.teaser %}
+            {% if post.teaser contains "://" %}
+              <img src="{{ post.teaser }}" alt="">
             {% else %}
-              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              <img src="{{ post.teaser | prepend: "/images/" | prepend: base_path }}" alt="">
             {% endif %}
-            alt="">
-        {% endif %}
-      </div>
+          {% elsif teaser %}
+            <img src=
+              {% if teaser contains "://" %}
+                "{{ teaser }}"
+              {% else %}
+                "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              {% endif %}
+              alt="">
+          {% endif %}
+        </div>
+      {% endif %}
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
