@@ -23,7 +23,7 @@ redirect_from:
 >
 > 2. **PBR with Large Models:** I am focused on extending traditional PBR by integrating large models to address its limitations in real-world scene modeling, implementation complexity, scene constraints, and hardware utilization.
 >
-> 3. **3D Vision on AIGC:** I examine how advancements in 3DV, particularly the application of scaling laws, enhance the capture of real-world properties. This progress offers significant advantages for AIGC applications such as video generation and 3D asset creation, with the full potential of this synergy still being explored.
+> 3. **3D Vision on AIGC:** I am exploring how advancements in 3DV, particularly the application of scaling laws, enhance the capture of real-world properties. This progress offers significant advantages for AIGC applications such as video generation and 3D asset creation, with the full potential of this synergy still being explored.
 
 
 ## Evolving Research Perspectives
