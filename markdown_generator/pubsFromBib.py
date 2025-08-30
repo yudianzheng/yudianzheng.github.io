@@ -118,6 +118,15 @@ for pubsource in publist:
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
+
+            # Add this line where other fields are handled
+            author_list = ""
+            for author in bibdata.entries[bib_id].persons["author"]:
+                author_list += author.first_names[0] + " " + author.last_names[0] + ", "
+            # Remove trailing comma and space
+            if author_list.endswith(", "):
+                author_list = author_list[:-2]
+            md += "\nauthors: '" + html_escape(author_list) + "'"
             
             note = False
             if "note" in b.keys():
