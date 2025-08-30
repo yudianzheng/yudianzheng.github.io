@@ -19,11 +19,11 @@ redirect_from:
 >
 > Specifically, my work is structured around three areas:
 >
-> 1. **Visual Representation Interplay:** I investigate the characteristics of diverse visual representations (e.g., NeRF, 3D Gaussian Splatting, PBR, across latent, vector, and pixel spaces) and explore effective methods for their conversion and utilization.
+> 1. **Visual Representation Interplay:** Investigating the characteristics of diverse visual representations (e.g., NeRF, 3D Gaussian Splatting, PBR, across latent, vector, and pixel spaces) and explore effective methods for their conversion and utilization.
 >
-> 2. **PBR with Large Models:** I am focused on extending traditional PBR by integrating large models to address its limitations in real-world scene modeling, implementation complexity, scene constraints, and hardware utilization.
+> 2. **PBR with Large Models:** Extending traditional PBR by integrating large models to address its limitations in real-world scene modeling, implementation complexity, scene constraints, and hardware utilization.
 >
-> 3. **3D Vision on AIGC:** I am exploring how advancements in 3DV, particularly the application of scaling laws, enhance the capture of real-world properties. This progress offers significant advantages for AIGC applications such as video generation and 3D asset creation, with the full potential of this synergy still being explored.
+> 3. **3D Vision on AIGC:** Exploring how 3D Vision advancements, particularly scaling laws, improve the capture of real-world properties. This progress offers significant advantages for AIGC applications such as video generation and 3D asset creation, with the full potential of this synergy still being explored.
 
 
 ## Evolving Research Perspectives
