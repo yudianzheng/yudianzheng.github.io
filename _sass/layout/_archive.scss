@@ -108,30 +108,6 @@
 }
 
 /*
-  Publication view
-   ========================================================================== */
-
-.publication-item {
-  display: flex;
-  align-items: flex-start;
-  
-  .publication-content {
-    flex: 1;
-  }
-  
-  .publication-teaser {
-    margin-left: 1em;
-    flex-shrink: 0;
-    
-    img {
-      max-width: 150px;
-      height: auto;
-      border-radius: 5px;
-    }
-  }
-}
-
-/*
    Grid view
    ========================================================================== */
 
