@@ -3,7 +3,7 @@ title: "Sketch Video Synthesis"
 collection: publications
 category: manuscripts
 permalink: /publication/sketch_video_synthesis
-# excerpt: ''
+excerpt: 'test'
 date: 2024-08-30
 venue: 'Computer Graphics Forum'
 authors: 'Yudian Zheng, Xiaodong Cun<sup>*</sup>, Menghan Xia, Chi-Man Pun'
